@@ -14,12 +14,7 @@ public class GoodsServiceImpl implements GoodsService {
     public GoodsServiceImpl(Goods goods){
         this.goods = goods;
     }
-    // private final List<Goods> goodsList;
 
-    //public GoodsServiceImpl(Goods goods) {
-    //    this.goods = goods;
-    //    this.goodsList = new ArrayList<>();
-    //}
 
     @Override
     public List<List<Integer>> addGoods(List<Integer> id) {
