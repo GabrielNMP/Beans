@@ -9,6 +9,4 @@ public interface GoodsService {
 
     List<List<Integer>> addGoods(List<Integer> id);
     List<Integer> getGoods();
-
-
 }

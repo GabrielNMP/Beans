@@ -9,7 +9,6 @@ import pro.sky.java.course2.beans.service.GoodsService;
 import java.util.Collections;
 import java.util.List;
 
-
 @RestController
 @RequestMapping("/order")
 public class GoodsController {
